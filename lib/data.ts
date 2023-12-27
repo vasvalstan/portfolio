@@ -76,9 +76,9 @@ export const projectsData = [
     imageUrl: rmtdevImg,
   },
   {
-    title: "E-learning platform",
+    title: "E-learning platform with a live software testing course",
     description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
+      "As I've previously worked as a software tester, I have created this e-learning platform with live payment integration and fully featured course on software testing, manual and automated concepts are presented and a fully working project.",
     tags: ["React", "Next.js", "MySQL", "Tailwind", "Stripe", "Prisma"],
     imageUrl: wordanalyticsImg,
   },
