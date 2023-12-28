@@ -1,17 +1,3 @@
 ## Hey there
 
-This is my portfolio website in which I use these technologies creating it, hope you like it.
-
-- Latest Next.js 13 features
-- Next.js App Router
-- Next.js Server Actions
-- Client & Server Components
-- TypeScript (Beginner & Intermediate)
-- Tailwind CSS
-- Context API
-- Advanced Animations with Framer Motion
-- React.Email & Resend
-- Custom React hooks
-- Fresh, modern UI design
-- Light & Dark mode
-- Responsive website
+This is my portfolio website, hope you like it :)
