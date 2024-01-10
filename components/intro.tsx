@@ -68,8 +68,7 @@ export default function Intro() {
         <span className="font-bold">8 years</span> of total experience, 5 in the
         gaming field, last 3 in software. I enjoy building{" "}
         <span className="italic">automation frameworks</span> for both web UI &
-        API my focus being{" "}
-        <span className="underline">Playwright/Cypress with JS/TS</span>
+        API with <span className="underline">Playwright/Cypress and JS/TS</span>
       </motion.h1>
 
       <motion.div
