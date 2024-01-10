@@ -51,10 +51,10 @@ export const experiencesData = [
     date: "May 2021 - Nov 2023",
   },
   {
-    title: "Full-Stack Developer",
+    title: "Freelancer & Udemy Instructor",
     location: "London, UK",
     description:
-      "Currently I'm working on creating a complete software testing bootcamp course on Udemy offering over 15h of video content. Using all the knowledge I've gathered over the years to help others get into the industry, I've made 3 Next.js projects to help students practice their skills, go from manual testing to setting up an automation framework. More info about those under the projects section.",
+      "Currently I'm working on creating a complete software testing bootcamp course on Udemy offering over 15h of video content. Using all the knowledge I've gathered over the years to help others get into the industry, I've made 3 Next.js projects to help students practice their skills, go from manual testing to setting up an automation framework. More info on my Github.",
     icon: React.createElement(FaReact),
     date: "Dec 2023 - present",
   },
@@ -64,21 +64,21 @@ export const projectsData = [
   {
     title: "Eventio",
     description:
-      "Full-stack Blitz.js app. It's a platform for creating and joining events. It has features like filtering, sorting and pagination.",
+      "Full-stack Blitz.js app. It's a platform for creating and joining events.",
     tags: ["Next.js", "Blitz.js", "Prisma", "Mantine UI", "Typescript", "Zod"],
     imageUrl: corpcommentImg,
   },
   {
-    title: "Data analytics platform",
+    title: "Data analytics dashboard",
     description:
-      "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
+      "Project from Jonas's Schmedtmann's course. It's a dashboard for a fictional company. It has features like filtering, sorting and pagination.",
     tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux", "Supabase"],
     imageUrl: rmtdevImg,
   },
   {
-    title: "E-learning platform with a live software testing course",
+    title: "E-learning platform",
     description:
-      "As I've previously worked as a software tester, I have created this e-learning platform with live payment integration and fully featured course on software testing, manual and automated concepts are presented and a fully working project.",
+      "As I've previously worked as a software tester, I have created this e-learning platform with live payment integration and fully featured course on software testing.",
     tags: ["React", "Next.js", "MySQL", "Tailwind", "Stripe", "Prisma"],
     imageUrl: wordanalyticsImg,
   },
@@ -101,7 +101,5 @@ export const skillsData = [
   "Apollo",
   "Express",
   "PostgreSQL",
-  "Python",
-  "Django",
   "Framer Motion",
 ] as const;

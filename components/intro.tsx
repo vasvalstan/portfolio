@@ -65,12 +65,11 @@ export default function Intro() {
       >
         <span className="font-bold">Hey there, I'm Valentin.</span> I'm a{" "}
         <span className="font-bold">QA engineer</span> with{" "}
-        <span className="font-bold">6 years</span> of experience, now turned
-        developer. I enjoy building <span className="italic">fullstack</span>{" "}
-        apps, my focus being{" "}
-        <span className="underline">
-          React (Next.js/Blitz.js) - Prisma - Mantine UI - Typescript - Zod
-        </span>
+        <span className="font-bold">8 years</span> of total experience, 5 in the
+        gaming field, last 3 in software. I enjoy building{" "}
+        <span className="italic">automation frameworks</span> for both web UI &
+        API my focus being{" "}
+        <span className="underline">Playwright/Cypress with JS/TS</span>
       </motion.h1>
 
       <motion.div
