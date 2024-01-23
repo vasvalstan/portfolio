@@ -45,7 +45,7 @@ export default function About() {
           Git, Github and Github actions for CI/CD and AWS deployment
         </li>
         <li className="text-base leading-6">
-          Basics of security and OWASP Top 10 vulnerabities
+          Basics of security and OWASP Top 10 vulnerabilities
         </li>
         <li className="text-base leading-6">Basics of Docker & Kubernetes</li>
         <li className="text-base leading-6 pb-12">
