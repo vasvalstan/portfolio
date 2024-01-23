@@ -11,7 +11,7 @@ export default function About() {
   return (
     <motion.section
       ref={ref}
-      className="mb-28 max-w-[45rem] text-center leading-8 sm:mb-40 scroll-mt-28"
+      className="mb-22 max-w-[45rem] text-center leading-8 sm:mb-40 scroll-mt-28"
       initial={{ opacity: 0, y: 100 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ delay: 0.175 }}
@@ -39,33 +39,21 @@ export default function About() {
         </li>
         <li className="text-base leading-6">API testing & automation</li>
         <li className="text-base leading-6">SQL and database testing</li>
-        <li className="text-base leading-6">Playwright automation</li>
-        <li className="text-base leading-6">Performance testing with K6</li>
         <li className="text-base leading-6">
-          Git, Github and Github actions for CI/CD and AWS deployment
+          Playwright automation & BDD framework development
+        </li>
+        <li className="text-base leading-6">Performance testing with k6</li>
+        <li className="text-base leading-6">
+          Git, Github and Github Actions for CI/CD and AWS deployment
         </li>
         <li className="text-base leading-6">
-          Basics of security and OWASP Top 10 vulnerabilities
+          Basics of security testing and OWASP Top 10 vulnerabilities
         </li>
         <li className="text-base leading-6">Basics of Docker & Kubernetes</li>
         <li className="text-base leading-6 pb-12">
           Mobile automation using Maestro
         </li>
       </ul>
-      <p className="pb-12">
-        I am looking, preferably, for a{" "}
-        <span className="font-medium">full-time position or contracting</span>{" "}
-        as an{" "}
-        <span className="font-bold underline ">
-          SDET, QA automation or manual tester.
-        </span>
-      </p>
-      <p>
-        <span className="italic">When I'm not testing/coding</span>, I enjoy
-        spending time outdoors, engaging in hikes, runs, and I love all kinds of
-        sports and physical exercises together with a team, Spartan Race type. I
-        have aspirations to one day get a ✈️ license and learn to sail⛵.
-      </p>
     </motion.section>
   );
 }
