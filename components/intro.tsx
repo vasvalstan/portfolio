@@ -9,7 +9,7 @@ import { HiDownload } from "react-icons/hi";
 import { FaGithubSquare, FaTwitterSquare } from "react-icons/fa";
 import { useSectionInView } from "@/lib/hooks";
 import { useActiveSectionContext } from "@/context/active-section-context";
-import portrait from "@/public/val.png";
+import portrait from "@/public/val-profile.png";
 
 export default function Intro() {
   const { ref } = useSectionInView("Home", 0.5);
@@ -38,7 +38,7 @@ export default function Intro() {
               height="192"
               quality="95"
               priority={true}
-              className="h-24 w-24 rounded-full object-cover border-[0.35rem] border-white shadow-xl"
+              className="h-25 w-25 rounded-full object-cover border-[0.35rem] border-white shadow-xl"
             />
           </motion.div>
 
@@ -52,9 +52,7 @@ export default function Intro() {
               delay: 0.1,
               duration: 0.7,
             }}
-          >
-            👋
-          </motion.span>
+          ></motion.span>
         </div>
       </div>
 
@@ -63,12 +61,13 @@ export default function Intro() {
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}
       >
-        <span className="font-bold">Hey there, I'm Valentin.</span> I'm a{" "}
-        <span className="font-bold">QA engineer</span> with{" "}
-        <span className="font-bold">8 years</span> of total experience, 5 in the
-        gaming field, last 3 in software. I enjoy building{" "}
-        <span className="italic">automation frameworks</span> for both web UI &
-        API with <span className="underline">Playwright/Cypress and JS/TS</span>
+        <span>
+          Seasoned QA Engineer with a core passion for game and software
+          testing. Expert in crafting robust automation frameworks with
+          <span className="font-bold"> Playwright</span> and{" "}
+          <span className="font-bold"> Typescript</span>. Let's elevate your
+          user experience!
+        </span>
       </motion.h1>
 
       <motion.div
